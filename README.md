@@ -5,7 +5,7 @@ Generates Visual reports using plotly.
 
 [Backend of this project](https://github.com/satya9500/rePlastik_backend)
 
-[ML Models for this project](https://github.com/satya9500/rePlastik_ML)
+[Frontend for this project](https://github.com/satya9500/rePlastik_frontend)
 
 ## Tech Stack
 1. Frontend - Angular 
@@ -50,9 +50,11 @@ Generates Visual reports using plotly.
 <hr>
 
 #### How to run 
-**Make sure you have Angular 10 installed and flask + nodejs backend are running**
-1. `git clone https://github.com/satya9500/rePlastik_frontend.git`
-2. `cd rePlastik_frontend`
-3. `npm i`
-4. `ng serve --proxy-config proxy.conf.json`
+**download final model from [here](https://drive.google.com/file/d/1OeMO43eeuBhalsvsfVe8f7mMbL1TTD-m/view?usp=sharing) and paste in the same directory, you should also have flask and flask sessions installed in your system.**
+1. `git clone https://github.com/satya9500/rePlastik_ML.git`
+2. `Download final model and paste in same directory`
+3. `cd rePlastik_ML`
+4. `pip3 install fastai==1.0.60`
+5. `python3 app.py`
+6. `Now run nodejs server and goto localhost:3000 to see the website up and running`
 
